@@ -15,9 +15,9 @@ tup = (2, 4, 8, 7, 10, 45)
 s_tup = sorted(tup)
 print(s_tup)
 
-# dict = {'name': 'john', 'job': 'painter', 'age': 25, 'hobby': 'dancing'}
-# s_dict = sorted(dict)
-# print(s_dict)
+dict = {'name': 'john', 'job': 'painter', 'age': 25, 'hobby': 'dancing'}
+s_dict = sorted(dict)
+print(s_dict)
 
 #for negative values
 li = [-5, -7, -8, 2, 4, 6]

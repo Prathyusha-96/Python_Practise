@@ -10,7 +10,7 @@ for n in nums:
 	my_list.append(n)
 print(my_list)
 
-#another solution
+#using comprehension
 
 my_list = [n for n in nums]
 print(my_list)
@@ -66,9 +66,9 @@ for name, rating in zip(name, rating):
 	my_dict[name] = rating
 print(my_dict)
 
-#using dict comprehension
-#my_dict = {name: rating for name, rating in zip(name, rating) if name != 'css'}
-#print(my_dict)
+# using dict comprehension
+# my_dict = {name: rating for name, rating in zip(name, rating) if name != 'css'}
+# print(my_dict)
 
 #set comprehension
 nums = [1, 1, 2, 5, 8, 6, 7, 4, 4, 3, 5]
