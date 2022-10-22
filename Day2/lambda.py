@@ -7,8 +7,10 @@
 x = lambda a: a +10
 print(x(5))
 
+a = 5
+b = 8
 x = lambda a, b: a*b
-print(x(5,8))
+print(x(a, b))
 
 #The power of lambda is better shown when you use them as an anonymous function inside another function.
 

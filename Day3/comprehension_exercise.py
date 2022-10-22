@@ -66,8 +66,10 @@ print(result1)
 # print(result2)
 
 string = "Practice Problems to Drill List Comprehension in Your Head"
-spaces = [s for s in string if s == ' ']
-print(len(spaces))
+result = [s for s in string if s == ' ']
+print(len(result))
 
 remv_vowel = [letter for letter in string if letter != 'a,e,i,o,u']
 print(remv_vowel)
+
+

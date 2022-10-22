@@ -5,7 +5,9 @@ print(d)
 
 #local date
 tday = datetime.date.today()
+
 print(tday.day)
+print('todays date is:', datetime.date.today())
 
 #monday 0 sunday 6
 print(tday.weekday())

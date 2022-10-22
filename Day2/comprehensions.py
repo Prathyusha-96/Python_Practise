@@ -58,7 +58,9 @@ DICTIONARY COMPREHENSIONS
 '''
 name = ['python', 'javascript', 'html', 'css', 'react']
 rating = [5, 6, 5, 8, 9]
-print (zip(name, rating))
+print (list(zip(name, rating)))
+for n, r in zip(name, rating):
+	print(n, r)
 
 #using loop
 my_dict = {}
