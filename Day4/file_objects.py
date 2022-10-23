@@ -8,23 +8,23 @@ the files'''
 # print(f.name)
 # f.close()
 with open('test.txt', 'r') as  f:
-	# f_contents = f.read(100)
+	# f_contents = f.read()
 	# print(f_contents, end='')
+
+	f_contents = f.readline()
+	print(f_contents, end='')
 
 	# f_contents = f.readline()
 	# print(f_contents, end='')
 
-	# f_contents = f.readline()
-	# print(f_contents, end='')
+	# size_to_read = 5
 
-	size_to_read = 5
+	# f_contents = f.read(size_to_read)
 
-	f_contents = f.read(size_to_read)
+	# print(f.tell())
 
-	print(f.tell())
+	# while len(f_contents) > 0:
+	# 	print(f_contents, end='*')
+	# 	f_contents = f.read(size_to_read)
 
-	while len(f_contents) > 0:
-		print(f_contents, end='*')
-		f_contents = f.read(size_to_read)
-
-    
+ #    
