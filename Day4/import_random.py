@@ -26,6 +26,7 @@ deck = list(range(1, 52))
 random.shuffle(deck)
 print(deck)
 
+
 #we get only 5 cards
 #sample method
 
