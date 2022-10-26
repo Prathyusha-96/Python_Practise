@@ -7,7 +7,7 @@ while(count < 3):
 a = [1, 2, 3, 4]
 while a:
     print(a.pop())
-Prints all letters except 'o' and 't'
+# Prints all letters except 'o' and 't'
 
 #conditional statement
 i = 0
