@@ -45,3 +45,4 @@ print(a != b) # True
 
 print(2+3-2 > 5)
 print('hello' == 'hey')
+print(5 != 6) #True
