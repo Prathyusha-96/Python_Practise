@@ -1,29 +1,32 @@
 #reverse words
 
-# string = 'i am learning python'
-# s = string.split()[::-1]
-# l = []
-# for i in s:
-#     l.append(i)
-# print(" ".join(l))
+string = 'i am learning python'
+s = string.split()[::-1]
+l = []
+for i in s:
+    l.append(i)
+print(" ".join(l))
 
 #remove ith character
-# test_str = "Prathyusha"
-# new_str = test_str[:2] + test_str[3:]
-# print(new_str)
+test_str = "Prathyusha"
+new_str = test_str[:2] + test_str[3:]
+print(new_str)
 
 #find even length of words
-# words = "iam in hyd city"
-# s = words.split(' ')
-# for i in s:
-#     if len(i) % 2 == 0:
-#         print(i)
+words = "iam in hyd city"
+s = words.split(' ')
+for i in s:
+    if len(i) % 2 == 0:
+        print(i)
 
 #upperhalfcase
-# string = "prathyusha"
-# print(string[0:3] + string.upper()[3:])
+string = "prathyusha"
+print(string[0:3] + string.upper()[3:])
 
 #capitalize the first and last
+from math import remainder
+
+
 my_str = "iam learning python"
 s = my_str.split()
 #["iam", "learning", "python"]
@@ -67,7 +70,15 @@ list1 = [12, 15, 46, 84]
 print(list1[::-1])
 
 number = 789456
-print(str(number)[::-1])
+# print(int(str(number)[::-1]))
+reverse_num = 0
+while number > 0:
+    remainder = number % 10
+    reverse_num = (reverse_num * 10) + remainder
+    number = number // 10
+print(reverse_num)
+
+
 
 
 
