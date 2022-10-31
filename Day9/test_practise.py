@@ -97,11 +97,32 @@ print(min(nums))
 
 list1 = []
 for i in range(1, 4):
-    # list1.append(i)
     if i % 3 == 0:
-        list1.append('fizz')
+        list1.append("fizz")
     else:
-        list1.append(i)
-    # print(str(i))
+        list1.append(str(i))
     
 print(list1)
+
+# n = 5
+list1 = []
+for i in range(1, 6):
+    if i%3 == 0:
+        list1.append("fizz")
+    elif i%5 == 0:
+        list1.append("buzz")
+    else:
+        list1.append(i)
+print(list1)
+n = 15
+a=[]
+for i in range(1,n+1):
+    if i%3==0 and i%5==0:
+        a.append("FizzBuzz")
+    elif i%3==0:
+        a.append("Fizz")
+    elif i%5==0:
+        a.append("Buzz")
+    else:
+        a.append(str(i))
+print(a)
