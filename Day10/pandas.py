@@ -11,3 +11,9 @@
 # }
 # myvar = pd.Series(my_dataset)
 # print(myvar)
+
+import pandas as pd
+
+list1 = [2, 4, 6, 5, 9]
+my_list = pd.series(list1)
+print(my_list)

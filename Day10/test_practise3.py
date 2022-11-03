@@ -36,13 +36,24 @@ def is_leap(year):
 res=is_leap(2011)
 print(res)
 
-
-
-
 arr = []
 for i in range(1,4,1):
     arr.append(i)
 print(arr)
 
+
+string = 'leetcode'
+
+freq={}
+for i in string:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+    for i in string:
+        if freq[i]==1:
+            print (string.index(i))
+        print -1
+		
 
 
